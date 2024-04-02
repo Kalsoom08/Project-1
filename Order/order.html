@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="../style.css">
+</head> 
+<body id="obody">
+    <a href="../index.html" id="ohome">Home</a>
+    <br><br><br><br>
+   <center>
+    <form class="form">
+        <fieldset class="fieldset">
+            <legend id="legend">Place Your Order</legend><br><br><br>
+
+        <label>Name   : <input type="text" name="username" id="text"></label><br><br>    
+        <label>Phone  :<input type="text" name="number" id="text" required></label><br><br>
+       <label>Delivery Address :<select name="address" id="address" ></label>
+            <option value="Tehkal">Tehkal</option>
+            <option value="Sadar">Sadar Bazar</option>
+            <option value="Town">University Town</option>
+       </select><br><br>
+        <input type="text" name="address" name="address" value="Complete Address" id="text"><br><br>
+
+       <label>Order :<select name="order" id="order"></label> 
+            <option value="biryani">Biryani -------- Rs :500/-</option>
+            <option value="karahi">Karahi -------- Rs : 700/-</option>
+            <option value="kabab">Chapli Kabab -------- Rs :600/-</option>
+            <option value="haleem">Haleem -------- Rs :400/-</option>
+            <option value="pizza">Pizza -------- Rs :1000/-</option>
+            <option value="spagetti">Spaghetti -------- Rs :700/-</option>
+            <option value="lasagnia">Lasagnia -------- Rs: 1200/-</option>
+            <option value="macroni">Macaroni -------- Rs : 500/-</option>
+            <option value="molten">Molten Lava -------- Rs:900/-</option>
+            <option value="waffel">Waffle -------- Rs : 500/-</option>
+            <option value="donut">Donut -------- Rs : 200/-</option>
+        </select><br><br>
+        <button id="button">Place Order</button>
+        </fieldset>
+    </form>
+</center>
+</body>
+</html>
